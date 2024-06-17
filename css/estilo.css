@@ -1,0 +1,56 @@
+/* Estilo para el contenedor principal */
+.wrap {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el título de la página */
+.wrap h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Estilo para la tabla de opciones */
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.form-table th,
+.form-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.form-table th {
+    background-color: #f5f5f5;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Estilo para el campo de entrada */
+.form-table input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo para el botón de envío */
+.submit input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit input[type="submit"]:hover {
+    background-color: #005a8c;
+}
